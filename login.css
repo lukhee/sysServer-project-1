@@ -1,0 +1,144 @@
+/* @font-face{
+font-family: robo;
+src: url("https://fonts2u.com/roboto-black.")
+} */
+body{
+    background: white;
+    width: 100%;
+    font-family: robo;
+    /* position: absolute; */
+    height: 100%;
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.left-display{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 55%;
+    min-height: 100%;
+    padding: 120px 10px 0px 140px;
+    background: #d3d3d34d;
+    padding-left: 50px;
+}
+.content-description{
+    color: grey;
+    margin: 0px
+}
+.content-author{
+    padding: 10px 0;
+    color: darkgrey;
+    margin: 4px 0px;
+    font-size: 12px
+}
+.left-content{
+    padding-top: 220px;
+    padding-left: 80px;
+    width: 280px;
+}
+.left-logo{
+    padding-left: 80px;
+}
+.right-display{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: white;
+    width: 45%;
+    height: 100%;
+    padding: 30px 10px 10px 40px
+}
+.form-container{
+    width: 60%;
+    margin: 10px auto;
+}
+
+form{
+    /* width: 65%; */
+    /* background: gold; */
+    margin-top: 30px;
+}
+.error{
+    display: none;
+}
+.error-message{
+    text-align: center;
+    font-size: 15px;
+    /* display: none; */
+    color: red;
+    background: rgb(245, 194, 194);
+    border-radius: 4px;
+    padding:5px 20px;
+    width:80%;
+    margin-top: 10px;
+}
+
+.right-login{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+input, button{
+    border: none;
+    padding:  10px 10px
+}
+input:focus, button:focus {
+    outline:none;
+}
+label{
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: lightgrey;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 5;
+    width: 90%;
+    background: #d3d3d34d;
+    border-radius: 4px;
+}
+.inputEffect{
+    background: lightblue;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+button{
+    padding: 10px 40px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 4px;
+    background: #0000ff;
+}
+.buttonEffect{
+    box-shadow: 0.2px 6px 9px #0000ff85
+}
+.right-logo{
+    margin-top: 10px;
+}
+.login-head{
+    margin-top: 70px
+}
+.login-head>h1, .left-logo>h1{
+    font-size:39px;
+}
+
+.password{
+    background: white;
+    color: #0000ff;
+}

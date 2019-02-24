@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- left container -->
+        <div class="left-display">
+            <div class="left-logo">
+                <h1> Instanta</h1>
+            </div>
+            <div class="left-content">
+                <p class="content-description">
+                    For every minute spent in organizing, an hour is earned.
+                </p>
+                <p class="content-author"> Benjamin Frankin </p>
+
+            </div>
+        </div>
+
+        <!-- right container -->
+        <div class="right-display">
+            <div class="form-container">
+                <div class= "right-logo">
+                    <h4>Fieldco</h4>
+                </div>
+                <div class="login-head">
+                    <h1>Login</h1>
+                </div>
+                <div class="error-message">
+                    Username or password is incorrect
+                </div>
+                <div>
+                    <form action="passwordRecover.html" id="passwordRec">
+                        <div class="right-login">
+                            <label for="email">
+                                E-MAIL
+                            </label>
+                            <input id="email" type="text" value="" placeholder="something@example.com">
+                        </div>
+                        <div  class="right-login">
+                            <label for="password">
+                                PASSWORD
+                            </label>
+                            <input id="password" type="password" value="" placeholder="something you only know">
+                        </div>
+                        <div class="button">
+                            <button class="login-button login-submit">Login</button>
+                            <button class="password" id="psswd">forget password?</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
