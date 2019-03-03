@@ -1,12 +1,7 @@
-/* @font-face{
-font-family: robo;
-src: url("https://fonts2u.com/roboto-black.")
-} */
+
 body{
     background: white;
     width: 100%;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* position: absolute; */
     font-family: 'Roboto Condensed', sans-serif;
     height: 100%;
     margin: 0px;
@@ -29,7 +24,7 @@ body{
     top: 0;
     width: 55%;
     min-height: 100%;
-    padding: 120px 10px 0px 140px;
+    padding: 175px 10px 0px 140px;
     background: #d3d3d34d;
     padding-left: 50px;
 }
@@ -43,14 +38,33 @@ body{
     margin: 4px 0px;
     font-size: 12px
 }
+
+.fa-home{
+    font-size: 30px;
+    color: #0bbd0b;
+    padding-bottom: 8px;
+}
 .left-content{
-    padding-top: 220px;
+    padding-top: 270px;
     padding-left: 80px;
     width: 280px;
 }
 .left-logo{
     padding-left: 80px;
 }
+
+.left-logo> span{
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px
+}
+
+
+.fa-dot-circle{
+color: blue;
+font-size: 30px;
+}
+
 .right-display{
     position: fixed;
     width: 100%;
@@ -63,7 +77,7 @@ body{
     padding: 30px 10px 10px 40px
 }
 .form-container{
-    width: 60%;
+    width: 55%;
     margin: 10px auto;
 }
 
@@ -75,6 +89,11 @@ form{
 .error{
     display: none;
 }
+
+.fa-exclamation-triangle{
+    padding-right: 3px;
+}
+
 .error-message{
     text-align: center;
     font-size: 15px;
@@ -82,9 +101,13 @@ form{
     color: red;
     background: rgb(245, 194, 194);
     border-radius: 4px;
-    padding:5px 20px;
-    width:80%;
+    padding:5px 5px;
+    width:90%;
     margin-top: 10px;
+}
+
+.error-toggle{
+    display: none
 }
 
 .right-login{
@@ -136,8 +159,8 @@ button{
     margin-top: 70px
 }
 .login-head>h1, .left-logo>h1{
-    font-size: 39px;
-    font-weight: 900;
+    font-size: 36px;
+    font-weight: 1000;
     line-height: 1.1;
 }
 
